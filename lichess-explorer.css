@@ -1,0 +1,57 @@
+opening-training-ui .ct-opex-table table .ct-ot-explorer-rep-move-row,
+opening-training-ui .ct-opex-table table .ct-ot-explorer-rep-move-row:hover {
+    background-color: white;
+    color: #000;
+}
+
+opening-training-ui .ct-opex-table table .ct-ot-explorer-other-move-row,
+opening-training-ui .ct-opex-table table .ct-ot-explorer-other-move-row:hover {
+    background-color: #f57aff;
+    color: #000;
+}
+
+.ct-ot-explorer-rep-move-row .ct-opex-cand-move,
+.ct-ot-explorer-other-move-row .ct-opex-cand-move,
+.ct-ot-explorer-rep-move-row a,
+.ct-ot-explorer-other-move-row a {
+	color: #000099 !important;
+}
+
+.ct-opex-mistake {
+	color: orange;
+}
+
+.ct-opex-inaccuracy {
+	color: blue;
+}
+
+@font-face {
+    font-family: 'lichess';
+    font-display: block;
+    src: url(lichess.woff2) format("woff2")
+}
+.ct-collapsible-header-content {
+	width: 100%;
+}
+
+.ct-collapsible-header-content .ct-settings-action {
+	margin-left: auto;
+	margin-right: 1em;
+}
+
+.ct-collapsible-header-content .ct-engine-action {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+[data-icon]::before {
+    font-size: 1.2em;
+    vertical-align: middle;
+    font-family: 'lichess';
+    font-style: normal;
+    font-weight: normal;
+    text-transform: none;
+    speak: none;
+    content: attr(data-icon);
+    opacity: 0.9;
+}
