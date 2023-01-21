@@ -662,7 +662,7 @@
 		static storageId = 'lichess-explorer';
 		static defaultSettings = {
 			speeds: ['blitz', 'rapid', 'classical', 'correspondence'],
-			ratings: ['600', '1000', '1200', '1400', '1600', '1800', '2000', '2200', '2500'],
+			ratings: ['2000', '2200', '2500'],
 			moves: 20,
 			ownName: [],
 			user: '',
